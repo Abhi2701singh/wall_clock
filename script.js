@@ -1,12 +1,10 @@
 function clock(){
     const d=new Date;
-    // console.log(d)
+   
     const h=d.getHours();
     const m=d.getMinutes();
     const s=d.getSeconds();
-    // console.log(h)
-    // console.log(m)
-    // console.log(s)
+    
     var s_rotation=6*s;
     var m_rotation=6*m;
     var h_rotation=30*h +m/2;
