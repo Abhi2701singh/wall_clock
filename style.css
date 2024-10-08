@@ -1,0 +1,41 @@
+body{
+    background-color: blueviolet;
+}
+
+#clock{
+    height: 400px;
+    width: 400px;
+    margin:0 auto; 
+    background-image: url('../img/clock.jpg');
+    background-size: cover;
+    position: relative;
+}
+#hr,#min,#sec{
+    position: absolute;
+    transform-origin: bottom;
+}
+
+#hr{
+   height: 110px;
+   width: 5px; 
+   background-color: brown;
+   top: 91px;
+   left: 199px;
+   
+}
+
+#min{
+    height: 120px;
+    width: 3px;
+    background-color: aqua;
+    top: 80px;
+    left: 200px;
+}
+
+#sec{
+    height: 140px;
+    width: 2px;
+    background-color: aquamarine;
+    top: 60px;
+    left: 201px;
+}
